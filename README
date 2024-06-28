@@ -1,11 +1,10 @@
-
 # ZSH Aliases Script
 
 This script creates helpful aliases and functions for Git, Docker, Terraform, Kubectl, and SSH in your ZSH environment.
 
 ## Features
 
-- Adds concise aliases for common commands
+- Adds aliases for common commands
 - Includes useful functions to streamline workflows  
 - Supports Git, Docker, Terraform, Kubectl, and SSH
 - Automatically adds aliases to your .zshrc file
@@ -29,7 +28,7 @@ After running the script, you can use the new aliases and functions in your ZSH 
 - `gs` - git status
 - `gcp "Commit message"` - git add, commit, and push in one command  
 - `d` - docker
-- `tf` - terraform
+- `t` - terraform
 - `k` - kubectl
 - `s` - ssh
 
