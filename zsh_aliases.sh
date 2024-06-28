@@ -199,6 +199,10 @@ EOF
 echo "# Kubectl autocompletion" >> ~/.zshrc
 echo 'source <(kubectl completion zsh)' >> ~/.zshrc
 
+# Enable fzf autocompletion
+echo "# fzf autocompletion" >> ~/.zshrc
+echo 'source <(fzf --zsh)' >> ~/.zshrc
+
 # Source the zshrc file to apply changes
 source ~/.zshrc
 
